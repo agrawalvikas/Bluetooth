@@ -50,7 +50,7 @@ public class Main_Activity extends Activity implements OnItemClickListener {
 		@Override
 		public void handleMessage(Message msg) {
 			// TODO Auto-generated method stub
-			Log.i(tag, "in handler");
+			Log.i(tag, "in message handler");
 
 			switch(msg.what){
 				case CHK_BLUE:
